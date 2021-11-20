@@ -1,0 +1,72 @@
+#gameborders
+{
+  border: 3px solid black;
+  height: 368.9px;
+  width: 1000px;
+  background-color: lightblue;
+}
+
+#gameborders table
+{
+  border-collapse: collapse;
+}
+
+#gameborders tr
+{
+  display: block;
+}
+
+.board_cell
+{
+  border:1px solid lightblue;
+  border-bottom:none;
+  height:50px;
+  width:50px;
+}
+
+.Player
+{
+  background-image: url("character.gif");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.ground
+{
+  background-image: url("ground.png");
+  border:0px solid brown;
+}
+
+.obstacle
+{
+  background-image: url("obstacle.png");
+}
+
+#b
+{
+  width: 1006px;
+  height: 100px;
+  font-size: 80px;
+  color: white;
+  background-color: #4ed62f;
+}
+
+#b:hover
+{
+  opacity: .5;
+}
+
+#Score
+{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 20px;
+  border: 3px dotted black;
+  padding: 10px;
+}
+
+.sun
+{
+  background-color: #fff7e0;
+}
